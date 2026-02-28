@@ -1,0 +1,24 @@
+{
+    "include": [
+        "backend",
+        "dashboard",
+        "database",
+        "models",
+        "simulator",
+        "test_db.py"
+    ],
+    "exclude": [
+        "**/node_modules",
+        "**/__pycache__",
+        "venv"
+    ],
+    "executionEnvironments": [
+        {
+            "root": ".",
+            "pythonVersion": "3.12",
+            "extraPaths": [
+                "."
+            ]
+        }
+    ]
+}
